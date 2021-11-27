@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+
 const Header = () => {
     return (
         <Nav>
@@ -43,15 +44,18 @@ const Nav = styled.div`
     display:flex;
     align-items:center;
     padding:0 36px;
+    justify-content:space-between;
+    overflow-x:hidden;
 `
-const Logo = styled.img`
+const Logo = styled.img`  
     width:80px;
 `
 const NavMenu = styled.div`
-    color:white;
+    
     display:flex;
     flex:1;
     justify-content:center;
+    
     a{
         display:flex;
         align-items:center;
@@ -73,7 +77,7 @@ const NavMenu = styled.div`
                 right:0;
                 bottom:-6px;
                 transform: scaleX(0);
-                transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+                transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 1) 0s;
                 opacity:0;
             }
         }
@@ -84,6 +88,9 @@ const NavMenu = styled.div`
                 opacity:1;
             }
         }
+    }
+    @media screen and (max-width:750px){
+        display:none;
     }
 `
 const UserImg = styled.img`
