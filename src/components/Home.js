@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import ImgSlider from './ImgSlider';
+import Movies from './Movies';
 import Viewer from './Viewer';
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
         <Container>
             <ImgSlider />
             <Viewer/>
+            <Movies/>
         </Container>
     )
 }

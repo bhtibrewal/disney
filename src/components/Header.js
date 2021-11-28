@@ -43,7 +43,7 @@ const Nav = styled.div`
     background:#090b13;
     display:flex;
     align-items:center;
-    padding:0 36px;
+    padding:0 2.5vw;
     justify-content:space-between;
     overflow-x:hidden;
 `
@@ -59,13 +59,13 @@ const NavMenu = styled.div`
     a{
         display:flex;
         align-items:center;
-        padding:12px;
+        padding:1.5vw;
         cursor:pointer;
         img{
-            height:20px;
+            height: 1.2rem;
         }
         span{
-            font-size:15px;
+            font-size: 1rem ;
             position:relative;
 
             &:after{
@@ -89,7 +89,7 @@ const NavMenu = styled.div`
             }
         }
     }
-    @media screen and (max-width:750px){
+    @media screen and (max-width:720px){
         display:none;
     }
 `

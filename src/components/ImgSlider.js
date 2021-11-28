@@ -22,6 +22,12 @@ export default function ImgSlider() {
             <Wrap>
                 <img src="/images/slider-badag.jpg" alt="" />
             </Wrap>
+            <Wrap>
+                <img src="/images/slider-scale.jpg" alt="" />
+            </Wrap>
+            <Wrap>
+                <img src="/images/slider-scales.jpg" alt="" />
+            </Wrap>
         </Corousel>
     )
 }
@@ -45,7 +51,7 @@ const Wrap = styled.div`
 cursor:pointer;
 
 img{
-    margin-top:20px;
+    margin-top: 3vh;
     border:4px solid transparent;
     border-radius:4px;
     width:100%;

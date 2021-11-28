@@ -31,7 +31,6 @@ const Container = styled.main`
     display:grid;
     grid-gap:2vw;
     padding:3vh 0;
-    
     grid-template-columns:repeat(5, minmax(0, 1fr));
 `
 const Wrap = styled.div`
