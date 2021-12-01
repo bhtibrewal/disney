@@ -6,25 +6,25 @@ export default function Details() {
     return (
         <Container>
             <Background>
-                <img src="/images/details-background.jfif" />
+                <img alt="" src="/images/details-background.jfif" />
             </Background>
             <ImgTitle>
-                <img src="/images/details-bao.png" />
+                <img alt="" src="/images/details-bao.png" />
             </ImgTitle>
             <Controls>
                 <PlayButton>
-                    <img src="/images/play-icon-black.png" />
+                    <img alt="" src="/images/play-icon-black.png" />
                     <span>Play</span>
                 </PlayButton>
                 <TrailerButton>
-                    <img src="/images/play-icon-white.png" />
+                    <img alt="" src="/images/play-icon-white.png" />
                     <span>Trailer</span>
                 </TrailerButton>
                 <AddButton>
                     <span>+</span>
                 </AddButton>
                 <WatchButton>
-                    <img src="/images/group-icon.png"/>
+                    <img alt="" src="/images/group-icon.png"/>
                 </WatchButton>
             </Controls>
             <SubTitle>

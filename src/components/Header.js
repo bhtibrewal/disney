@@ -6,32 +6,32 @@ const Header = () => {
         <Nav>
             <Logo src="/images/logo.svg" />
             <NavMenu>
-                <a>
-                    <img src="/images/home-icon.svg" />
+                <a href="/">
+                    <img alt="" src="/images/home-icon.svg" />
                     <span>Home</span>
                 </a>
-                <a>
-                    <img src="/images/search-icon.svg" />
+                <a href="/">
+                    <img alt="" src="/images/search-icon.svg" />
                     <span>Search</span>
                 </a>
-                <a>
-                    <img src="/images/watchlist-icon.svg" />
+                <a href="/">
+                    <img alt="" src="/images/watchlist-icon.svg" />
                     <span>Watchlist</span>
                 </a>
-                <a>
-                    <img src="/images/original-icon.svg" />
+                <a href="/">
+                    <img alt="" src="/images/original-icon.svg" />
                     <span>Originals</span>
                 </a>
-                <a>
-                    <img src="/images/movie-icon.svg" />
+                <a href="/">
+                    <img alt="" src="/images/movie-icon.svg" />
                     <span>Movies</span>
                 </a>
-                <a>
-                    <img src="/images/series-icon.svg" />
+                <a href="/">
+                    <img alt="" src="/images/series-icon.svg" />
                     <span>Series</span>
                 </a>
             </NavMenu>
-            <UserImg src="https://avatars.githubusercontent.com/u/42600164?v=4" />
+            <UserImg alt="" src="https://avatars.githubusercontent.com/u/42600164?v=4" />
         </Nav>
     )
 }
