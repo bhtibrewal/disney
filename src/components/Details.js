@@ -71,12 +71,7 @@ const ImgTitle = styled.div`
 const Controls = styled.div`
 display:flex;
 align-items:center;
-width:60vw;
-max-width:500px;
-justify-content:space-between;
-@media screen and (max-width:450px){
-    width:90vw;
-}
+
 `
 const PlayButton = styled.button`
     display:flex;
@@ -86,9 +81,10 @@ const PlayButton = styled.button`
     background: rgb(249, 249, 249);
     border: 2px solid rgb(249, 249, 249);
     padding:.5vw 2.5vw;
-    // padding: 2px 20px 2px 16px;
+    // padding: 2px 20px 2px 16px;   
     letter-spacing: 1.8px;
     cursor: pointer;
+    margin-right:3vw;
     
     &:hover{
         transform:scale(1.05);
@@ -117,6 +113,7 @@ const AddButton = styled.button`
     border: 2px solid rgb(249, 249, 249);
     color: white;
     border-radius:50%;
+    margin-right:3vw;
     span{
         font-size:1.5rem;
     }
